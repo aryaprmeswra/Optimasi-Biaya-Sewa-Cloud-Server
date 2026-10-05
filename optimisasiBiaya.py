@@ -34,8 +34,6 @@ x_lp, y_lp = titik_layak[idx_lp]
 z_lp = nilai_Z[idx_lp]
 
 # langkah 2: pencarian solusi bilangan bulat
-# batas 0..12 sudah cukup: (9,0) layak dengan Z = 72.000, sehingga x > 9
-# atau y > 6 pasti lebih mahal dari itu
 bulat_layak = []
 for xi in range(0, 13):
     for yi in range(0, 13):
